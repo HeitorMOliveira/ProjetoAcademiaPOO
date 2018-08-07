@@ -56,10 +56,10 @@ public class Equipamento {
 		this.descricao = descricao;
 	}
 
-	@Override
+	
 	public String toString() {
-		return "Equipamento [nome=" + nome + ", tipoEquipamento=" + tipoEquipamento + ", pesoMaterial=" + pesoMaterial
-				+ ", ID=" + ID + ", descricao=" + descricao + "]";
+		return "Equipamento de nome: " + nome + "\ntipoEquipamento: " + tipoEquipamento + "\npesoMaterial: " + pesoMaterial
+				+ "\nID: " + ID + "\ndescricao: " + descricao;
 	}
 	
 	
